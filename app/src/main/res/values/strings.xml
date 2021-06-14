@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SimpleStore</string>
+    <string name="Register">РЕГИСТРАЦИЯ</string>
+    <string name="EncourageText">Запишете се при нас за да ни подкрепите в каузата да помогнем на планетата ни и да съберем средтсва можеш да го направиш и със своя фейзбук акаунт!</string>
+    <string name="Facebook">Facebook</string>
+    <string name="Name">Име</string>
+    <string name="GivenName">Собствено</string>
+    <string name="Email">Емайл</string>
+    <string name="Password">Парола</string>
+    <string name="RepeatPassword">Повторете парола</string>
+    <string name="RegisterNow">Регистрирай се още сега</string>
+    <string name="Planet">Планета</string>
+    <string name="Heart">Heart</string>
+    <string name="Cat">Cat</string>
+    <string name="TopDonors">Топ дарители !</string>
+    <string name="WeTakeDonors">Събираме дарения</string>
+    <string name="Subscribe">Впиши се</string>
+    <string name="WelcomeBack">Добре дошли отново !</string>
+    <string name="PhoneNumber">Телефонен номер</string>
+    <string name="GetInContact">Ще се свържем с вас скоро</string>
+    <string name="EverythingForCause">100% отиват за планетата</string>
+    <string name="MakeCharity">Направи дарение</string>
+</resources>

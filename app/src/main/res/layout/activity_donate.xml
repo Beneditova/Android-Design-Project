@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="@android:color/holo_blue_light" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonDonor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:insetTop="10dp"
+            android:text="@string/MakeCharity"
+            app:backgroundTint="@android:color/holo_blue_bright"></Button>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/clientName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:shadowColor="@android:color/darker_gray"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="15"
+                    android:text="@string/PhoneNumber"
+                    android:textColor="@color/teal_700"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/editTextPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="phone"
+                    android:ems="10"
+                    android:hint="@string/PhoneNumber"
+                    android:inputType="phone" />
+
+                <TextView
+                    android:id="@+id/clientEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:shadowColor="@android:color/darker_gray"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="15"
+                    android:text="@string/Email"
+                    android:textColor="@color/teal_700"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/editTextTextEmailAddress2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="email"
+                    android:ems="10"
+                    android:hint="@string/Email"
+                    android:inputType="textEmailAddress" />
+
+                <TextView
+                    android:id="@+id/PasswordClient"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:shadowColor="@android:color/darker_gray"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="15"
+                    android:text="@string/Password"
+                    android:textColor="@color/teal_700"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="name"
+                    android:ems="10"
+                    android:hint="@string/Password"
+                    android:inputType="textPersonName" />
+
+                <TextView
+                    android:id="@+id/ConfirmationPasswordClient"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:shadowColor="@android:color/darker_gray"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="15"
+                    android:text="@string/GetInContact"
+                    android:textColor="@color/teal_700"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/catDiamond"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/nyohvampire"
+                    android:contentDescription="@string/Planet"/>
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/registerEncourageTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:shadowColor="@android:color/darker_gray"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="15"
+            android:text="@string/EverythingForCause"
+            android:textColor="@color/teal_700"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
